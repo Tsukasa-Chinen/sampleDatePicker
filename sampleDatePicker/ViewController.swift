@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
         // DatePickerの初期値を設定
         // ERROR Example:myDatePicker.date = "2017/10/01";
-        myDatePicker.date = df.date(from: "2017/10/01")!        
+        myDatePicker.date = df.date(from: "2017/10/01")!
     }
 
     // Trigger: 日付が選択された時
